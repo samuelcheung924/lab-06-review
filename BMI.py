@@ -1,8 +1,8 @@
 import sys
 
 print ("BMI: BODY MASS INDEX V0.1 gamma beta whatevs")
-userWeight = input("Enter Your Weight (in Pounds):")
-userHeight = input("Enter Your Weight (in inches):")
+userWeight = input("Enter Your Weight (in Pounds): ")
+userHeight = input("Enter Your Height (in inches): ")
 
-bmi = (703 * float(userWeight)) / (float(userHeight) * float(userHeight))
+BMI = (703 * float(userWeight)) / (float(userHeight) * float(userHeight))
 print ("Your body mass index(BMI) is:" + str(BMI) + "%")
